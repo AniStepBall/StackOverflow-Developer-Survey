@@ -19,7 +19,7 @@ To understand the scope of 2020 by answering these questions:
 ## Repository Structure
 * tech-overview.ipynb: Comprehensive Jupyter Notebook
 * requirements.txt: Python environment dependencies
-* stack-overflow-developer-survey-2020: A zip file that contains the dataset used
+* stack-overflow-developer-survey-2020: A zip file that contains the dataset used. Here instead of the csv file because of size problems
 * survey_results_public.csv: A 2020 developer survey from StackOverflow
 
 ## Key Findings
