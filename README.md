@@ -4,10 +4,11 @@ This project analyzes a developer survey dataset from StackOverflow to understan
 
 ## Motivation
 To understand the scope of 2020 by answering these questions:
-1. Were there any patterns used by developer when collaborating with each other?
-2. What were the trends for new technologies during 2020?
-3. How does developer change their way of problem-solving patterns?
-4. In what way does companies influence developer careers?
+1. How did the transition to remote work in 2020 influence devlopers' work-life balance, (e.g., workweek hours and overtime frequency)?
+2. What were the trends in adopting new technologies in 2020 across different experience levels?
+3. How did developers’ problem-solving strategies change in 2020 due to global events?
+4. How do company size and work policies impact developer career satisfaction?
+5. How did educational background influence job opportunities and career growth in 2020?
 
 ## Libraries Used
 * pandas
@@ -19,27 +20,29 @@ To understand the scope of 2020 by answering these questions:
 ## Repository Structure
 * tech-overview.ipynb: Comprehensive Jupyter Notebook
 * requirements.txt: Python environment dependencies
-* stack-overflow-developer-survey-2020: A zip file that contains the dataset used. Here instead of the csv file because of size problems
+* stack-overflow-developer-survey-2020: A zip file that contains the dataset used
 * survey_results_public.csv: A 2020 developer survey from StackOverflow
+* scenario_prediction.csv: A csv file that contains a list of scenario to predicit thier job satification
 
 ## Key Findings
-1. Were there any patterns used by developer when collaborating with each other?
-- There is a high level correlation between experience and technology.
-- There is a consistent level across all career stages.
-- The higher experince of the developers, the higher their technology usage
+1. How did the transition to remote work in 2020 influence devlopers' work-life balance, (e.g., workweek hours and overtime frequency)?
+-
 
-2. What were the trends for new technologies during 2020?
-- The best indicator in 2020 was the year of experience
-- The technology used in 2020 could influence future choices
+2. What were the trends in adopting new technologies in 2020 across different experience levels?
+-
 
-3. How does developer change their way of problem-solving patterns?
-- Developer will change their technolgy based on thier situation
-- The higher their expereinces, the more they, code which lead to better problem-solving skills
+3. How did developers’ problem-solving strategies change in 2020 due to global events?
+-
 
-4. In what way does companies influence developer careers?
-- Companies size affects the impacts on developers
-- The choices of technology is based on the companies size and needs
+4. How do company size and work policies impact developer career satisfaction?
+- Companies size does have an effects the developers satisfaction towards their career
 - There is a correlation between work hours and company-sizes
+
+5. How did educational background influence job opportunities and career growth in 2020?
+-
+-
+-
+
 
 ## Acknowledgments
 * Developer survey data provided by StackOverflow
